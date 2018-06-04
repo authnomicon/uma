@@ -15,6 +15,12 @@
     }
   ],
   "main": "./lib",
+  "assembly": {
+    "namespace": "org.authnomicon/uma",
+    "components": [
+      "http/rsreg/service"
+    ]
+  },
   "devDependencies": {
     "make-node": "^0.3.0",
     "mocha": "^2.0.0",
