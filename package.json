@@ -1,5 +1,5 @@
 {
-  "name": "authnomicon-uma",
+  "name": "@authnomicon/uma",
   "version": "0.0.0",
   "description": "UMA components for the Authnomicon project.",
   "author": {
