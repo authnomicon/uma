@@ -9,7 +9,10 @@ exports = module.exports = function(createHandler) {
   return router;
 };
 
-exports['@implements'] = [ 'http://i.bixbyjs.org/http/Service' ];
+exports['@implements'] = [
+  'http://i.bixbyjs.org/http/Service',
+  'http://schemas.authnomicon.org/js/http/uma/PermissionRegistrationService'
+];
 exports['@path'] = '/uma/pr';
 exports['@require'] = [
   './handlers/create'
