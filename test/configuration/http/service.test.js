@@ -6,10 +6,6 @@ var factory = require('../../../com/configuration/http/service');
 
 describe('configuration/http/service', function() {
   
-  it('should export factory function', function() {
-    expect(factory).to.be.a('function');
-  });
-  
   it('should be annotated', function() {
     expect(factory['@implements']).to.equal('http://i.bixbyjs.org/http/Service');
     expect(factory['@path']).to.equal('/.well-known/uma-configuration');

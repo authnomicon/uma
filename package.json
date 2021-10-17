@@ -18,7 +18,7 @@
   "assembly": {
     "namespace": "org.authnomicon/uma",
     "components": [
-      "http/rsreg/service"
+      "http/configuration/service"
     ]
   },
   "devDependencies": {
@@ -30,6 +30,7 @@
     "test": "node_modules/.bin/mocha test/*.test.js"
   },
   "dependencies": {
+    "chai-express-handler": "0.0.3",
     "express": "^4.17.1"
   }
 }
