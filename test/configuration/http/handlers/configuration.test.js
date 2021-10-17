@@ -18,7 +18,9 @@ describe('configuration/http/handlers/configuration', function() {
       .finish(function() {
         expect(this).to.have.status(200);
         // TODO: add headers assertion
-        //expect(this).to.have.deep.body({ version: '1.0' })
+        expect(this).to.have.body({
+          version: '1.0'
+        });
         done();
       })
       .listen();
