@@ -12,7 +12,7 @@ describe('@authnomicon/uma', function() {
       expect(json.assembly.namespace).to.equal('org.authnomicon/uma');
       
       expect(json.assembly.components).to.have.length(1);
-      expect(json.assembly.components).to.include('http/configuration/service');
+      expect(json.assembly.components).to.include('configuration/http/service');
     });
   });
   

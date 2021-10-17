@@ -18,8 +18,11 @@
   "assembly": {
     "namespace": "org.authnomicon/uma",
     "components": [
-      "http/configuration/service"
+      "configuration/http/service"
     ]
+  },
+  "directories": {
+    "com": "com"
   },
   "devDependencies": {
     "chai": "^4.3.4",
