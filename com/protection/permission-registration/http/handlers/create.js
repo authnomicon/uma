@@ -1,10 +1,6 @@
 exports = module.exports = function(parse, authenticate) {
   
   function validate(req, res, next) {
-    console.log('UMA PERM CREATE');
-    console.log(req.body)
-    
-    
     res.json({ ticket: '123-456' })
   }
   
